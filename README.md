@@ -17,11 +17,11 @@ It is a combination of a none-preset [mastercom](https://mastercomfig.com/) conf
 - My own config file
 
 ## Installation
-1. Remove all mastercomfig related files in your current "custom" folder
-2. Remove tf/cfg/user/modules.cfg (or create a copy/backup)
-3. Drag and drop (and replace and merge) the "tf" folder
-4. Edit class configs or restore your own
-5. Add launch options: `-fullscreen -novid -nojoy -nosteamcontroller -noipx -particles 1 -precachefontchars -noquicktime -noforcemaccel -refresh 144 -high -threads 6 +exec hbivnm_config`
+1. Remove all mastercomfig related files in your current "custom" folder.
+2. Remove `tf/cfg/user/modules.cfg` (or create a copy/backup).
+3. Drag and drop (and replace and merge) the "tf" folder (or place things manually).
+4. Edit class configs or restore your own.
+5. Add launch options: `-fullscreen -novid -nojoy -nosteamcontroller -noipx -particles 1 -precachefontchars -noquicktime -noforcemaccel -refresh 144 -high -threads 6 +exec hbivnm_config`.
 
 **NOTE:** `-refresh` and `-threads` should be changed to match your own monitor refresh rate and hardware.
 
@@ -30,21 +30,21 @@ Team Fortress 2 supports a few different DirectX levels, some give more frames t
 
 ### Available DirectX levels
 The following are the available DirectX levels supported by the game:
-- 80
-- 81
-- 90
-- 95
-- 98
+- `80`
+- `81`
+- `90`
+- `95`
+- `98`
 
 DX8 gives the most frames but worst looking graphics.
 
 DX9 gives less frames but better looking graphics.
 
 ### Tutorial
-1. Add launch option "-dxlevel *XX*" (*XX* - desired DX level).
+1. Add launch option `-dxlevel XX` (`XX` - desired DX level).
 2. Launch the game fully.
 3. Close the game.
-4. Remove the launch option you added ("-dxlevel *XX*").
+4. Remove the launch option you added (`-dxlevel XX`).
 5. Done!
 
 ## NVIDIA Profile Inspector / LOD Tweak
