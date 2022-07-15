@@ -57,8 +57,8 @@ You can download NVIDIA Profile Inspector from this repo [here](https://github.c
 2. Launch NVIDIA Profile Inspector as Administrator.
 3. Set profile to: "Team Fortress 2".
 4. Scroll down.
-5. Set "Antialiasing - Transparency Supersampling" to "0x00000008 AA_MODE_REPLAY_MODE_ALL" (choose from the list).
-6. Set "Texture filtering - LOD Bias (DX)" to "0x00000078" (without the quotations you retard).
+5. Set `Antialiasing - Transparency Supersampling` to `0x00000008 AA_MODE_REPLAY_MODE_ALL`.
+6. Set `Texture filtering - LOD Bias (DX)` to `0x00000078` (copy this value if it is not available in the list).
 7. Top right hit "Apply changes".
 8. Close NVIDIA Profile Inspector.
 9. Launch TF2.
