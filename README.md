@@ -3,6 +3,9 @@ This is the config I use to get as many frames per second as possible :)
 
 It is a combination of a none-preset [mastercom](https://mastercomfig.com/) config along with my own [config file](https://github.com/hbivnm/hbivnm-tf2-config/blob/main/tf/cfg/hbivnm_config.cfg).
 
+## Download
+Check out the releases and download [here](https://github.com/hbivnm/hbivnm-tf2-config/releases).
+
 ## Contents
 - Edited version of [ahud](https://huds.tf/site/s-ahud)
 - Custom viewmodels
