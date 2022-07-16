@@ -13,8 +13,8 @@ Check out the releases and download [here](https://github.com/hbivnm/hbivnm-tf2-
 - Flat texture addon
 - mastercomfig none-preset
 - mastercomfig modules.cfg
-- mastercomfig disable pyroland
 - mastercomfig no soudscapes addon
+- mastercomfig disable pyroland addon
 - mastercomfig null cancelling movement addon
 - Class specific configs
 - My own config file
