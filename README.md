@@ -6,6 +6,15 @@ It is a combination of a none-preset [mastercom](https://mastercomfig.com/) conf
 ## Download
 Check out the releases and download [here](https://github.com/hbivnm/hbivnm-tf2-config/releases).
 
+## DISCLAIMER
+This config is what works best for me with the following specs:
+- AMD Ryzen 9 3900X
+- NVIDIA 1080TI
+- 48gb RAM @ 3600MHz
+- TF2 installed on an SSD
+
+Comments about certain commands within my cfg file might not be accurate for YOU and it could be worth experimenting on your own with my config as a foundation for your own future config :)
+
 ## Contents
 - Edited version of [ahud](https://huds.tf/site/s-ahud)
 - Custom viewmodels
