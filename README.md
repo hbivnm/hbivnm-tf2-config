@@ -42,15 +42,15 @@ Team Fortress 2 supports a few different DirectX levels, some give more frames t
 
 ### Available DirectX levels
 The following are the available DirectX levels supported by the game:
-- `80`
-- `81`
-- `90`
-- `95`
-- `98`
+- `80` - DirectX 8.0
+- `81` - DirectX 8.1
+- `90` - DirectX 9.0
+- `95` - DirectX 9.5
+- `98` - DirectX 9.8
 
-DX8 gives the most frames but worst looking graphics.
+DirectX 8 gives more frames but worse looking graphics.
 
-DX9 gives less frames but better looking graphics.
+DirectX 9 gives less frames but better looking graphics.
 
 ### Tutorial
 1. Add launch option `-dxlevel XX` (`XX` - desired DX level).
