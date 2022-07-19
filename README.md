@@ -11,6 +11,7 @@ This config is what works best for me with the following specs:
 - AMD Ryzen 9 3900X
 - NVIDIA 1080TI
 - 48gb RAM @ 3600MHz
+- Windows 10
 - TF2 installed on an SSD
 
 Comments about certain commands within my cfg file might not be accurate for YOU and it could be worth experimenting on your own with my config as a foundation for your own future config :)
@@ -29,11 +30,13 @@ Comments about certain commands within my cfg file might not be accurate for YOU
 - My own config file
 
 ## Installation
-1. Remove all mastercomfig related files in your current "custom" folder.
+1. Remove all mastercomfig-related files in `tf/custom`.
 2. Remove `tf/cfg/user/modules.cfg` (or create a copy/backup).
-3. Drag and drop (and replace and merge) the "tf" folder (or place things manually).
+3. Remove or backup your current class specific configs in `tf/cfg/user`.
+4. Drag and drop (and replace and merge) the "tf" folder (or place things manually).
+5. Edit `tf/cfg/hbivnm_config.cfg` to to your heart's content.
 4. Edit class configs or restore your own.
-5. Add launch options: `-fullscreen -novid -nojoy -nosteamcontroller -noipx -particles 1 -precachefontchars -noquicktime -noforcemaccel -refresh 144 -high -threads 6 +exec hbivnm_config`.
+5. Add launch options: `-fullscreen -novid -nojoy -nosteamcontroller -noforcemaccel -noquicktime -noipx -particles 1 -precachefontchars -refresh 144 -high -threads 6 +exec hbivnm_config`.
 
 **NOTE:** `-refresh` and `-threads` should be changed to match your own monitor refresh rate and hardware.
 
