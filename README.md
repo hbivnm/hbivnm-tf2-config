@@ -42,6 +42,12 @@ Comments about certain commands within my cfg file might not be accurate for YOU
 **NOTE:** `-refresh` and `-threads` should be changed to match your own monitor refresh rate and hardware.
 
 ## DirectX (dxlevel)
+***
+**WARNING: Both of my configs automatically set DirectX level on execution, this process is no longer needed if you don't want to set it manually and remove if from my config files!**
+
+**I'd propose the idea of changing the DirectX level by editing my config file directly, simply change the command (`mat_dxlevel`) at the top to the DirectX level you would like to play with.**
+***
+
 Team Fortress 2 supports a few different DirectX levels, some give more frames than others, some look better and some are more stable.
 
 ### Available DirectX levels
@@ -57,8 +63,6 @@ DirectX 8 gives more frames but worse looking graphics.
 DirectX 9 gives less frames but better looking graphics.
 
 ### Tutorial
-**WARNING:** Both of my config files automatically set DX level on execution, this process is no longer needed if you don't want to set it manually and remove if from my config files!
-
 1. Add launch option `-dxlevel XX` (`XX` - desired DX level).
 2. Launch the game fully.
 3. Close the game.
