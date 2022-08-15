@@ -82,7 +82,7 @@ You can download NVIDIA Profile Inspector from this repo [here](https://github.c
 9. Launch TF2.
 
 ## Help / FAQ
-**Q:** I can't my own bullet tracers, how can I fix this?
+**Q:** I can't see my own bullet tracers, how can I fix this?
 
 **A:** These are turned off by default in my config, add `r_drawtracers_firstperson 1` to `tf/cfg/hbivnm_custom.cfg`.
 ***
