@@ -27,14 +27,15 @@ Comments about certain commands within my cfg file might not be accurate for YOU
 - mastercomfig disable pyroland addon
 - mastercomfig null cancelling movement addon
 - Class specific configs
-- My own config file
+- My own config file for high framerate
+- My own config for extremely high graphics (perfect for demos)
 
 ## Installation
 1. Remove all mastercomfig-related files in `tf/custom`.
-2. Remove `tf/cfg/user/modules.cfg` (or create a copy/backup).
+2. Remove or backup your current modules file `tf/cfg/user/modules.cfg`.
 3. Remove or backup your current class specific configs in `tf/cfg/user`.
 4. Drag and drop (and replace and merge) the "tf" folder (or place things manually).
-5. Edit `tf/cfg/hbivnm_config.cfg` to to your heart's content.
+5. Add your own commands to `tf/cfg/hbivnm_custom.cfg`.
 4. Edit class configs or restore your own.
 5. Add launch options: `-fullscreen -novid -nojoy -nosteamcontroller -noforcemaccel -noquicktime -noipx -particles 1 -precachefontchars -refresh 144 -high -threads 6 +exec hbivnm_config`.
 
@@ -56,6 +57,8 @@ DirectX 8 gives more frames but worse looking graphics.
 DirectX 9 gives less frames but better looking graphics.
 
 ### Tutorial
+**WARNING:** Both of my config files automatically set DX level on execution, this process is no longer needed if you don't want to set it manually and remove if from my config files!
+
 1. Add launch option `-dxlevel XX` (`XX` - desired DX level).
 2. Launch the game fully.
 3. Close the game.
