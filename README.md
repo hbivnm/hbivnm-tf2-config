@@ -80,3 +80,17 @@ You can download NVIDIA Profile Inspector from this repo [here](https://github.c
 7. Top right hit "Apply changes".
 8. Close NVIDIA Profile Inspector.
 9. Launch TF2.
+
+## Help / FAQ
+**Q:** I can't my own bullet tracers, how can I fix this?
+
+**A:** These are turned off by default in my config, add `r_drawtracers_firstperson 1` to `tf/cfg/hbivnm_custom.cfg`.
+***
+**Q:** I can't see flame particles at certain times, how can I fix this?
+
+**A:** This is due to particle batching, add `cl_particle_batch_mode 1` to `tf/cfg/hbivnm_custom.cfg`.
+***
+**Q:** I can't see all of my bullet tracers, how can I fix this?
+
+**A:** Similar to the flame particles not being visible at times, just add `cl_particle_batch_mode 1` to `tf/cfg/hbivnm_custom.cfg`.
+***
