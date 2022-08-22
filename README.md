@@ -1,5 +1,5 @@
 # HBIVNM CONFIG for Team Fortress 2
-This is the config I use to get as many frames per second as possible :)
+This is the config I use, I value good visibility and high framerates. Hence this config is designed specifically for high framerates and minimizing visual clutters :)
 
 It is a combination of a none-preset [mastercom](https://mastercomfig.com/) config along with my own [config file](https://github.com/hbivnm/hbivnm-tf2-config/blob/main/tf/cfg/hbivnm_config.cfg).
 
@@ -17,33 +17,35 @@ This config is what works best for me with the following specs:
 Comments about certain commands within my cfg file might not be accurate for YOU and it could be worth experimenting on your own with my config as a foundation for your own future config :)
 
 ## Contents
-- Edited version of [ahud](https://huds.tf/site/s-ahud)
+- My own config file for high framerate
+- My own config for extremely high graphics (great for watching/recording demos)
+
+Additional content:
+- Class specific configs
 - Custom viewmodels
-- No explosion addon
+- Edited version of [ahud](https://huds.tf/site/s-ahud)
 - Flat texture addon
-- mastercomfig none-preset
+- No explosion addon
+- mastercomfig disable pyroland addon
 - mastercomfig modules.cfg
 - mastercomfig no soudscapes addon
-- mastercomfig disable pyroland addon
+- mastercomfig none-preset
 - mastercomfig null cancelling movement addon
-- Class specific configs
-- My own config file for high framerate
-- My own config for extremely high graphics (perfect for demos)
 
 ## Installation
-1. Remove all mastercomfig-related files in `tf/custom`.
-2. Remove or backup your current modules file `tf/cfg/user/modules.cfg`.
-3. Remove or backup your current class specific configs in `tf/cfg/user`.
-4. Drag and drop (and replace and merge) the "tf" folder (or place things manually).
-5. Add your own commands to `tf/cfg/hbivnm_custom.cfg`.
-4. Edit class configs or restore your own.
-5. Add launch options: `-fullscreen -novid -nojoy -nosteamcontroller -noforcemaccel -noquicktime -noipx -particles 1 -precachefontchars -refresh 144 -high -threads 6 +exec hbivnm_config`.
+1. Remove all mastercomfig-related files in `tf/custom`
+2. Remove or backup your current modules file `tf/cfg/user/modules.cfg`
+3. Remove or backup your current class specific configs in `tf/cfg/user`
+4. Drag and drop (and replace and merge) the "tf" folder (or place things manually)
+5. Add your own commands to `tf/cfg/hbivnm_custom.cfg`
+4. Edit class configs or restore your own
+5. Add launch options: `-fullscreen -novid -nojoy -nosteamcontroller -noforcemaccel -noquicktime -noipx -particles 1 -precachefontchars -refresh 144 -high -threads 6 +exec hbivnm_config`
 
 **NOTE:** `-refresh` and `-threads` should be changed to match your own monitor refresh rate and hardware.
 
 ## DirectX (dxlevel)
 ***
-**WARNING: Both of my configs automatically set DirectX level on execution, this process is no longer needed if you don't want to set it manually and remove if from my config files!**
+**WARNING: Both of my configs automatically set DirectX level on execution, this process is no longer needed if you don't want to change your default DirectX level for the game.**
 
 **I'd propose the idea of changing the DirectX level by editing my config file directly, simply change the command (`mat_dxlevel`) at the top to the DirectX level you would like to play with.**
 ***
@@ -52,22 +54,28 @@ Team Fortress 2 supports a few different DirectX levels, some give more frames t
 
 ### Available DirectX levels
 The following are the available DirectX levels supported by the game:
-- `80` - DirectX 8.0
-- `81` - DirectX 8.1
-- `90` - DirectX 9.0
-- `95` - DirectX 9.5
-- `98` - DirectX 9.8
 
-DirectX 8 gives more frames but worse looking graphics.
+- DirectX 8.0 - `80`
+- DirectX 8.1 - `81`
+- DirectX 9.0 - `90` 
+- DirectX 9.5 - `95` 
+- DirectX 9.8 - `98` 
+- DirectX 9+ - `100` 
 
-DirectX 9 gives less frames but better looking graphics.
+DirectX 8 gives generally **more frames** but **worse looking graphics**.
 
-### Tutorial
-1. Add launch option `-dxlevel XX` (`XX` - desired DX level).
-2. Launch the game fully.
-3. Close the game.
-4. Remove the launch option you added (`-dxlevel XX`).
-5. Done!
+DirectX 9 gives generally **less frames** but **better looking graphics**.
+
+### How to force set a default DirectX level
+1. Open Steam
+2. Go to the "Library"
+3. Right-click "Team Fortress 2"
+4. Select "Properties..." from the menu
+5. In the "Launch Options" input field, type one of the DirectX levels available (ex. `-dxlevel 100`)
+6. Start Team Fortress 2 and let it fully launch
+7. Close Team Fortress 2
+8. Repeat steps 2, 3, 4
+9. In the "Launch Options" input field, remove the previously added launch option (ex. `-dxlevel 100`)
 
 ## NVIDIA Profile Inspector / LOD Tweak
 You can alter the LOD (level of detail) bias so all textures render using their low resolution variants, this might give you an increase in performance for low-end systems and might be worth checking out.
@@ -75,26 +83,22 @@ You can alter the LOD (level of detail) bias so all textures render using their 
 You can download NVIDIA Profile Inspector from this repo [here](https://github.com/hbivnm/hbivnm-tf2-config/raw/main/NVIDIA%20Profile%20Inspector/nvidiaProfileInspector.exe).
 
 ### How to enable LOD Tweak
-1. Close TF2.
-2. Launch NVIDIA Profile Inspector as Administrator.
-3. Set profile to: "Team Fortress 2".
-4. Scroll down.
-5. Set `Antialiasing - Transparency Supersampling` to `0x00000008 AA_MODE_REPLAY_MODE_ALL`.
-6. Set `Texture filtering - LOD Bias (DX)` to `0x00000078` (copy this value if it is not available in the list).
-7. Top right hit "Apply changes".
-8. Close NVIDIA Profile Inspector.
-9. Launch TF2.
+1. Close TF2
+2. Launch NVIDIA Profile Inspector as Administrator
+3. Set profile to: "Team Fortress 2"
+4. Scroll down
+5. Set `Antialiasing - Transparency Supersampling` to `0x00000008 AA_MODE_REPLAY_MODE_ALL`
+6. Set `Texture filtering - LOD Bias (DX)` to `0x00000078` (copy this value if it is not available in the list)
+7. Top right hit "Apply changes"
+8. Close NVIDIA Profile Inspector
+9. Launch TF2
 
 ## Help / FAQ
 **Q:** I can't see my own bullet tracers, how can I fix this?
 
-**A:** These are turned off by default in my config, add `r_drawtracers_firstperson 1` to `tf/cfg/hbivnm_custom.cfg`.
+**A:** These are turned off by default in my config, add `r_drawtracers_firstperson 1` and `cl_particle_batch_mode 1` to `tf/cfg/hbivnm_custom.cfg`.
 ***
 **Q:** I can't see flame particles at certain times, how can I fix this?
 
 **A:** This is due to particle batching, add `cl_particle_batch_mode 1` to `tf/cfg/hbivnm_custom.cfg`.
-***
-**Q:** I can't see all of my bullet tracers, how can I fix this?
-
-**A:** Similar to the flame particles not being visible at times, just add `cl_particle_batch_mode 1` to `tf/cfg/hbivnm_custom.cfg`.
 ***
