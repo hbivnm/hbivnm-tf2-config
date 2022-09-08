@@ -34,12 +34,11 @@ Additional content:
 
 ## Installation
 1. Remove all mastercomfig-related files in `tf/custom`
-2. Remove or backup your current modules file `tf/cfg/user/modules.cfg`
-3. Remove or backup your current class specific configs in `tf/cfg/user`
-4. Drag and drop (and replace and merge) the "tf" folder (or place things manually)
-5. Add your own commands to `tf/cfg/hbivnm_custom.cfg`
-4. Edit class configs or restore your own
-5. Add launch options: `-fullscreen -novid -nojoy -nosteamcontroller -noforcemaccel -noquicktime -noipx -particles 1 -precachefontchars -refresh 144 -high -threads 6 +exec hbivnm_config`
+2. Remove or backup your current class specific configs in `tf/cfg/user`
+3. Drag and drop (and replace and merge) the "tf" folder (or place things manually)
+4. Add your own commands to `tf/cfg/hbivnm_custom.cfg`
+5. Edit class configs or restore your own
+6. Add launch options: `-fullscreen -novid -nojoy -nosteamcontroller -noforcemaccel -noquicktime -noipx -particles 1 -precachefontchars -refresh 144 -high -threads 6 +exec hbivnm_config`
 
 **NOTE:** `-refresh` and `-threads` should be changed to match your own monitor refresh rate and hardware.
 
