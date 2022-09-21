@@ -4,7 +4,7 @@ This is the config I use, I value good visibility and high framerates. Hence thi
 It is a combination of a none-preset [mastercom](https://mastercomfig.com/) config along with my own [config file](https://github.com/hbivnm/hbivnm-tf2-config/blob/main/tf/cfg/hbivnm_config.cfg).
 
 ## Download
-Check out the releases and download [here](https://github.com/hbivnm/hbivnm-tf2-config/releases).
+The repository (i.e config) can be downloaded directly [HERE](https://github.com/hbivnm/hbivnm-tf2-config/archive/refs/heads/main.zip).
 
 ## DISCLAIMER
 This config is what works best for me with the following specs:
@@ -21,13 +21,11 @@ Comments about certain commands within my cfg file might not be accurate for YOU
 - My own config for extremely high graphics (great for watching/recording demos)
 
 Additional content:
-- Class specific configs
+- Class specific configs and overrides
 - Custom viewmodels
 - Edited version of [ahud](https://huds.tf/site/s-ahud)
 - Flat texture addon
-- No explosion addon
 - mastercomfig disable pyroland addon
-- mastercomfig modules.cfg
 - mastercomfig no soudscapes addon
 - mastercomfig none-preset
 - mastercomfig null cancelling movement addon
