@@ -1,7 +1,7 @@
-# HBIVNM CONFIG for Team Fortress 2
+# HbiVnm's Team Fortress 2 config
 This is the config I use, I value good visibility and high framerates. Hence this config is designed specifically for high framerates and minimizing visual clutters :)
 
-It is a combination of a none-preset [mastercom](https://mastercomfig.com/) config along with my own [config file](https://github.com/hbivnm/hbivnm-tf2-config/blob/main/tf/cfg/hbivnm_config.cfg).
+It is a combination of a custom none-preset [mastercom](https://mastercomfig.com/) config along with my own [config file](https://github.com/hbivnm/hbivnm-tf2-config/blob/main/tf/cfg/hbivnm_config.cfg).
 
 ## Download
 The repository (i.e config) can be downloaded directly [HERE](https://github.com/hbivnm/hbivnm-tf2-config/archive/refs/heads/main.zip).
@@ -21,13 +21,13 @@ Comments about certain commands within my cfg file might not be accurate for YOU
 - My own config for extremely high graphics (great for watching/recording demos)
 
 Additional content:
+- Edited version of [ahud](https://huds.tf/site/s-ahud)
 - Class specific configs and overrides
 - Custom viewmodels
-- Edited version of [ahud](https://huds.tf/site/s-ahud)
 - Flat texture addon
+- Custom mastercomfig none-preset
 - mastercomfig disable pyroland addon
 - mastercomfig no soudscapes addon
-- mastercomfig none-preset
 - mastercomfig null cancelling movement addon
 
 ## Installation
@@ -40,12 +40,12 @@ Additional content:
 
 **NOTE:** `-refresh` and `-threads` should be changed to match your own monitor refresh rate and hardware.
 
+# Additional customization
+
 ## DirectX (dxlevel)
-***
 **WARNING: Both of my configs automatically set DirectX level on execution, this process is no longer needed if you don't want to change your default DirectX level for the game.**
 
 **I'd propose the idea of changing the DirectX level by editing my config file directly, simply change the command (`mat_dxlevel`) at the top to the DirectX level you would like to play with.**
-***
 
 Team Fortress 2 supports a few different DirectX levels, some give more frames than others, some look better and some are more stable.
 
@@ -90,7 +90,7 @@ You can download NVIDIA Profile Inspector from this repo [here](https://github.c
 8. Close NVIDIA Profile Inspector
 9. Launch TF2
 
-## Help / FAQ
+# Help / FAQ
 **Q:** I can't see my own bullet tracers, how can I fix this?
 
 **A:** These are turned off by default in my config, add `r_drawtracers_firstperson 1` and `cl_particle_batch_mode 1` to `tf/cfg/hbivnm_custom.cfg`.
