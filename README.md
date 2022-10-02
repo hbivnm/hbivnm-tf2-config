@@ -6,6 +6,16 @@ It is a combination of a custom none-preset [mastercom](https://mastercomfig.com
 ## Download
 The repository (i.e config) can be downloaded directly [HERE](https://github.com/hbivnm/hbivnm-tf2-config/archive/refs/heads/main.zip).
 
+## Installation
+1. Remove all mastercomfig-related files in `tf/custom`
+2. Remove or backup your current class specific configs in `tf/cfg/user`
+3. Drag and drop (and replace and merge) the "tf" folder (or place things manually)
+4. Add your own commands to `tf/cfg/hbivnm_custom.cfg`
+5. Edit class configs or restore your own
+6. Add launch options: `-fullscreen -novid -nojoy -nosteamcontroller -noforcemaccel -noquicktime -noipx -particles 1 -precachefontchars -refresh 144 -high -threads 6 +exec hbivnm_config`
+
+**NOTE:** `-refresh` and `-threads` should be changed to match your own monitor refresh rate and hardware.
+
 ## DISCLAIMER
 This config is what works best for me with the following specs:
 - AMD Ryzen 9 3900X
@@ -29,16 +39,6 @@ Additional content:
 - mastercomfig disable pyroland addon
 - mastercomfig no soudscapes addon
 - mastercomfig null cancelling movement addon
-
-## Installation
-1. Remove all mastercomfig-related files in `tf/custom`
-2. Remove or backup your current class specific configs in `tf/cfg/user`
-3. Drag and drop (and replace and merge) the "tf" folder (or place things manually)
-4. Add your own commands to `tf/cfg/hbivnm_custom.cfg`
-5. Edit class configs or restore your own
-6. Add launch options: `-fullscreen -novid -nojoy -nosteamcontroller -noforcemaccel -noquicktime -noipx -particles 1 -precachefontchars -refresh 144 -high -threads 6 +exec hbivnm_config`
-
-**NOTE:** `-refresh` and `-threads` should be changed to match your own monitor refresh rate and hardware.
 
 # Additional customization
 
