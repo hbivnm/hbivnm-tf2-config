@@ -8,13 +8,55 @@ The repository (i.e config) can be downloaded directly [HERE](https://github.com
 
 ## Installation
 1. Remove all mastercomfig-related files in `tf/custom`
-2. Remove or backup your current class specific configs in `tf/cfg/user`
+2. Remove or backup your current class specific configs
 3. Drag and drop (and replace and merge) the "tf" folder (or place things manually)
 4. Add your own commands to `tf/cfg/hbivnm_custom.cfg`
-5. Edit class configs or restore your own
+5. Edit class configs or restore your own to `tf/cfg/user`
 6. Add launch options: `-fullscreen -novid -nojoy -nosteamcontroller -noforcemaccel -noquicktime -particles 1 -precachefontchars -freq 144 -high +exec hbivnm_config`
 
 **NOTE:** `-freq` should be changed to match your own monitor refresh rate and hardware.
+
+Here is an overview of where things should be placed:
+```
+tf/
+├─ cfg/
+│  ├─ overrides/
+│  │  ├─ demoman.cfg
+│  │  ├─ engineer.cfg
+│  │  ├─ heavyweapons.cfg
+│  │  ├─ medic.cfg
+│  │  ├─ pyro.cfg
+│  │  ├─ scout.cfg
+│  │  ├─ sniper.cfg
+│  │  ├─ soldier.cfg
+│  │  └─ spy.cfg
+│  ├─ user/
+│  │  ├─ demoman.cfg
+│  │  ├─ engineer.cfg
+│  │  ├─ heavyweapons.cfg
+│  │  ├─ medic.cfg
+│  │  ├─ pyro.cfg
+│  │  ├─ scout.cfg
+│  │  ├─ sniper.cfg
+│  │  ├─ soldier.cfg
+│  │  └─ spy.cfg
+│  ├─ hbivnm_alias.cfg
+│  ├─ hbivnm_antialiasing.cfg
+│  ├─ hbivnm_config.cfg
+│  ├─ hbivnm_config_high.cfg
+│  ├─ hbivnm_config_high_optimized.cfg
+│  ├─ hbivnm_custom.cfg
+│  ├─ hbivnm_phong.cfg
+│  └─ hbivnm_userpref.cfg
+├─ custom/
+│  ├─ 0.CustomizedViewmodels_XXXXXXXX.vpk
+│  ├─ FlatTexturesV1.vpk
+│  ├─ mastercomfig-disable-pyroland-addon_XXXXXXXX.vpk
+│  ├─ mastercomfig-hbivnm-preset_XXXXXXXX.vpk
+│  ├─ mastercomfig-no-soundscapes-addon_XXXXXXXX.vpk
+└─ └─ mastercomfig-null-canceling-movement-addon_XXXXXXXX.vpk
+
+```
 
 ## DISCLAIMER
 This config is what works best for me with the following specs:
