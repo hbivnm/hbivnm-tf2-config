@@ -49,13 +49,13 @@ tf/
 │  ├─ hbivnm_custom.cfg
 │  ├─ hbivnm_phong.cfg
 │  └─ hbivnm_userpref.cfg
-├─ custom/
-│  ├─ 0.CustomizedViewmodels_XXXXXXXX.vpk
-│  ├─ FlatTexturesV1.vpk
-│  ├─ mastercomfig-disable-pyroland-addon_XXXXXXXX.vpk
-│  ├─ mastercomfig-hbivnm-preset_XXXXXXXX.vpk
-│  ├─ mastercomfig-no-soundscapes-addon_XXXXXXXX.vpk
-└─ └─ mastercomfig-null-canceling-movement-addon_XXXXXXXX.vpk
+└─ custom/
+   ├─ 0.CustomizedViewmodels_XXXXXXXX.vpk
+   ├─ FlatTexturesV1.vpk
+   ├─ mastercomfig-disable-pyroland-addon_XXXXXXXX.vpk
+   ├─ mastercomfig-hbivnm-preset_XXXXXXXX.vpk
+   ├─ mastercomfig-no-soundscapes-addon_XXXXXXXX.vpk
+   └─ mastercomfig-null-canceling-movement-addon_XXXXXXXX.vpk
 
 ```
 
@@ -86,7 +86,7 @@ Additional content:
 # Additional customization
 
 ## DirectX (dxlevel)
-**WARNING: Both of my configs automatically set DirectX level on execution, this process is no longer needed if you don't want to change your default DirectX level for the game.**
+**WARNING: ALL of my configs automatically set DirectX level on execution, this process is no longer needed if you don't want to change your default DirectX level for the game.**
 
 **I'd propose the idea of changing the DirectX level by editing my config file directly, simply change the command (`mat_dxlevel`) at the top to the DirectX level you would like to play with.**
 
