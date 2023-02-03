@@ -10,9 +10,15 @@ The repository (i.e config) can be downloaded directly [HERE](https://github.com
 1. Remove all mastercomfig-related files in `tf/custom`
 2. Remove or backup your current class specific configs
 3. Drag and drop (and replace and merge) the "tf" folder (or place things manually)
-4. Add your own commands to `tf/cfg/hbivnm_custom.cfg`
-5. Edit class configs or restore your own to `tf/cfg/user`
-6. Add launch options: `-fullscreen -novid -nojoy -nosteamcontroller -noforcemaccel -noquicktime -particles 1 -precachefontchars -freq 144 -high +exec hbivnm_config`
+4. Edit class configs or restore your own to `tf/cfg/user`
+5. Edit the following files to your liking:
+* `tf/cfg/hbivnm_alias.cfg`
+* `tf/cfg/hbivnm_antialiasing.cfg`
+* `tf/cfg/hbivnm_binds.cfg`
+* `tf/cfg/hbivnm_phong.cfg`
+* `tf/cfg/hbivnm_userpref.cfg`
+6. Add your own commands to `tf/cfg/hbivnm_custom.cfg`
+7. Add launch options: `-fullscreen -novid -nojoy -nosteamcontroller -noforcemaccel -noquicktime -particles 1 -precachefontchars -freq 144 -high +exec hbivnm_config`
 
 **NOTE:** `-freq` should be changed to match your own monitor refresh rate and hardware.
 
@@ -65,7 +71,7 @@ This config is what works best for me with the following specs:
 - NVIDIA 1080TI
 - 48gb RAM @ 3600MHz
 - Windows 10
-- TF2 installed on an SSD
+- TF2 installed on an M.2 NVMe SSD
 
 Comments about certain commands within my cfg file might not be accurate for YOU and it could be worth experimenting on your own with my config as a foundation for your own future config :)
 
@@ -73,7 +79,7 @@ Comments about certain commands within my cfg file might not be accurate for YOU
 - My own config file for high framerate
 - My own config for extremely high graphics (great for watching/recording demos)
 
-Additional content:
+### Additional content
 - Edited version of [ahud](https://huds.tf/site/s-ahud)
 - Class specific configs and overrides
 - Custom viewmodels
@@ -116,6 +122,8 @@ DirectX 9 gives generally **less frames** but **better looking graphics**.
 7. Close Team Fortress 2
 8. Repeat steps 2, 3, 4
 9. In the "Launch Options" input field, remove the previously added launch option (ex. `-dxlevel 100`)
+
+You have now set a new DirectX level.
 
 ## NVIDIA Profile Inspector / LOD Tweak
 You can alter the LOD (level of detail) bias so all textures render using their low resolution variants, this might give you an increase in performance for low-end systems and might be worth checking out.
