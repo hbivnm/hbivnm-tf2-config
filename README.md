@@ -66,11 +66,17 @@ tf/
 ```
 
 ## DISCLAIMER
-This config is what works best for me with the following specs:
+This config is what works best for me and have been used on two unique systems:
 - AMD Ryzen 9 3900X
-- NVIDIA 1080TI
+- NVIDIA GTX 1080TI
 - 48gb RAM @ 3600MHz
 - Windows 10
+- TF2 installed on an M.2 NVMe SSD
+---
+- AMD Ryzen 9 7900X
+- NVIDIA RTX 4080
+- 64gb RAM @ 5200MHz
+- Windows 10 Home
 - TF2 installed on an M.2 NVMe SSD
 
 Comments about certain commands within my cfg file might not be accurate for YOU and it could be worth experimenting on your own with my config as a foundation for your own future config :)
