@@ -2,7 +2,7 @@
 This is the config I use, I value good visibility and high framerates. Hence this config is designed specifically for high framerates and minimizing visual clutters :)
 
 ## Download
-The a config of your liking by heading over to the releases [HERE](https://github.com/hbivnm/hbivnm-tf2-config/releases).
+Download the repo. here [HERE](https://github.com/hbivnm/hbivnm-tf2-config/archive/refs/heads/main.zip).
 
 ## Installation
 1. Remove all mastercomfig-related files in `tf/custom`
@@ -10,10 +10,10 @@ The a config of your liking by heading over to the releases [HERE](https://githu
 3. Drag and drop (and replace and merge) the "tf" folder (or place things manually)
 4. Edit class configs or restore your own to `tf/cfg/user`
 5. Edit the following files to your liking:
-* `tf/cfg/hbivnm_binds.cfg`
-* `tf/cfg/hbivnm_settings.cfg`
-* `tf/cfg/hbivnm_userpref.cfg`
-6. Add your own commands to `tf/cfg/hbivnm_custom.cfg`
+* `tf/cfg/hbivnm/hbivnm_binds.cfg`
+* `tf/cfg/hbivnm/hbivnm_settings.cfg`
+* `tf/cfg/hbivnm/hbivnm_userpref.cfg`
+6. Add your own commands to `tf/cfg/hbivnm/hbivnm_custom.cfg`
 7. Add launch options: `-fullscreen -novid -nojoy -nosteamcontroller -noforcemaccel -noquicktime -particles 1 -precachefontchars -freq 144 -high`
 
 **NOTE:** `-freq` should be changed to match your own monitor refresh rate and hardware.
@@ -22,6 +22,13 @@ Here is an overview of where things should be placed:
 ```
 tf/
 ├─ cfg/
+│  ├─ hbivnm/
+│  │  ├─ hbivnm_addons.cfg
+│  │  ├─ hbivnm_binds.cfg
+│  │  ├─ hbivnm_custom.cfg
+│  │  ├─ hbivnm_nullmovement.cfg
+│  │  ├─ hbivnm_settings.cfg
+│  │  └─ hbivnm_userpref.cfg
 │  ├─ overrides/
 │  │  ├─ demoman.cfg
 │  │  ├─ engineer.cfg
@@ -42,17 +49,15 @@ tf/
 │  │  ├─ sniper.cfg
 │  │  ├─ soldier.cfg
 │  │  └─ spy.cfg
-│  ├─ hbivnm_binds.cfg
-│  ├─ hbivnm_custom.cfg
-│  ├─ hbivnm_settings.cfg
-│  └─ hbivnm_userpref.cfg
+│  ├─ hbivnm_config.cfg
+│  ├─ hbivnm_config_high_optimized.cfg
+│  └─ hbivnm_config_ultra.cfg
 └─ custom/
    ├─ __Horsie'sViewmodelEditor_vXXXXXX.vpk
    ├─ FlatTexturesV1.vpk
    ├─ hbivnm-tf2-config.vpk
    ├─ mastercomfig-disable-pyroland-addon_vXXXXXX.vpk
    └─ mastercomfig-no-soundscapes-addon_vXXXXXX.vpk
-
 ```
 
 ## DISCLAIMER
@@ -72,7 +77,8 @@ This config is what works best for me and have been used on two unique systems:
 Comments about certain commands within my cfg file might not be accurate for YOU and it could be worth experimenting on your own with my config as a foundation for your own future config :)
 
 ## Contents
-- My own config vpk file
+- My own configs
+- Config vpk
 
 ### Additional content
 - Edited version of [ahud](https://huds.tf/site/s-ahud)
