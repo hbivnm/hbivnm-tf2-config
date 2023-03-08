@@ -7,3 +7,5 @@ Benchmarks are made with the `timedemo` command, at the end of the demo the foll
 - The average framerate
 - Milliseconds per frame
 - Fps variability
+
+This benchmark file was provided by [mastercoms](https://docs.mastercomfig.com/latest/benchmarks/).
