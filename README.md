@@ -1,10 +1,8 @@
 # HbiVnm's Team Fortress 2 config
 This is the config I use, I value good visibility and high framerates. Hence this config is designed specifically for high framerates and minimizing visual clutters :)
 
-It is a combination of a custom none-preset [mastercom](https://mastercomfig.com/) config along with my own [config file](https://github.com/hbivnm/hbivnm-tf2-config/blob/main/tf/cfg/hbivnm_config.cfg).
-
 ## Download
-The repository (i.e config) can be downloaded directly [HERE](https://github.com/hbivnm/hbivnm-tf2-config/archive/refs/heads/main.zip).
+The a config of your liking by heading over to the releases [HERE](https://github.com/hbivnm/hbivnm-tf2-config/releases).
 
 ## Installation
 1. Remove all mastercomfig-related files in `tf/custom`
@@ -12,13 +10,11 @@ The repository (i.e config) can be downloaded directly [HERE](https://github.com
 3. Drag and drop (and replace and merge) the "tf" folder (or place things manually)
 4. Edit class configs or restore your own to `tf/cfg/user`
 5. Edit the following files to your liking:
-* `tf/cfg/hbivnm_alias.cfg`
-* `tf/cfg/hbivnm_antialiasing.cfg`
 * `tf/cfg/hbivnm_binds.cfg`
-* `tf/cfg/hbivnm_phong.cfg`
+* `tf/cfg/hbivnm_settings.cfg`
 * `tf/cfg/hbivnm_userpref.cfg`
 6. Add your own commands to `tf/cfg/hbivnm_custom.cfg`
-7. Add launch options: `-fullscreen -novid -nojoy -nosteamcontroller -noforcemaccel -noquicktime -particles 1 -precachefontchars -freq 144 -high +exec hbivnm_config`
+7. Add launch options: `-fullscreen -novid -nojoy -nosteamcontroller -noforcemaccel -noquicktime -particles 1 -precachefontchars -freq 144 -high`
 
 **NOTE:** `-freq` should be changed to match your own monitor refresh rate and hardware.
 
@@ -46,22 +42,16 @@ tf/
 │  │  ├─ sniper.cfg
 │  │  ├─ soldier.cfg
 │  │  └─ spy.cfg
-│  ├─ hbivnm_alias.cfg
-│  ├─ hbivnm_antialiasing.cfg
 │  ├─ hbivnm_binds.cfg
-│  ├─ hbivnm_config.cfg
-│  ├─ hbivnm_config_high.cfg
-│  ├─ hbivnm_config_high_optimized.cfg
 │  ├─ hbivnm_custom.cfg
-│  ├─ hbivnm_phong.cfg
+│  ├─ hbivnm_settings.cfg
 │  └─ hbivnm_userpref.cfg
 └─ custom/
-   ├─ 0.CustomizedViewmodels_XXXXXXXX.vpk
+   ├─ __Horsie'sViewmodelEditor_vXXXXXX.vpk
    ├─ FlatTexturesV1.vpk
-   ├─ mastercomfig-disable-pyroland-addon_XXXXXXXX.vpk
-   ├─ mastercomfig-hbivnm-preset_XXXXXXXX.vpk
-   ├─ mastercomfig-no-soundscapes-addon_XXXXXXXX.vpk
-   └─ mastercomfig-null-canceling-movement-addon_XXXXXXXX.vpk
+   ├─ hbivnm-tf2-config.vpk
+   ├─ mastercomfig-disable-pyroland-addon_vXXXXXX.vpk
+   └─ mastercomfig-no-soundscapes-addon_vXXXXXX.vpk
 
 ```
 
@@ -82,18 +72,15 @@ This config is what works best for me and have been used on two unique systems:
 Comments about certain commands within my cfg file might not be accurate for YOU and it could be worth experimenting on your own with my config as a foundation for your own future config :)
 
 ## Contents
-- My own config file for high framerate
-- My own config for extremely high graphics (great for watching/recording demos)
+- My own config vpk file
 
 ### Additional content
 - Edited version of [ahud](https://huds.tf/site/s-ahud)
 - Class specific configs and overrides
 - Custom viewmodels
 - Flat texture addon
-- Custom mastercomfig none-preset
 - mastercomfig disable pyroland addon
 - mastercomfig no soudscapes addon
-- mastercomfig null cancelling movement addon
 
 # Additional customization
 
