@@ -14,9 +14,11 @@ Download the repo. here [HERE](https://github.com/hbivnm/hbivnm-tf2-config/archi
 * `tf/cfg/hbivnm/hbivnm_settings.cfg`
 * `tf/cfg/hbivnm/hbivnm_userpref.cfg`
 6. Add your own commands to `tf/cfg/hbivnm/hbivnm_custom.cfg`
-7. Add launch options: `-fullscreen -novid -nojoy -nosteamcontroller -noforcemaccel -noquicktime -particles 1 -precachefontchars -freq 144 -high`
+7. Add launch options: `-fullscreen -novid -nojoy -nosteamcontroller -noforcemaccel -noquicktime -particles 1 -precachefontchars -freq 144 -high +exec hbivnm_config`
 
 **NOTE:** `-freq` should be changed to match your own monitor refresh rate and hardware.
+
+**NOTE:** This config is compatible with ALL mastercomfig addons.
 
 Here is an overview of where things should be placed:
 ```
@@ -54,6 +56,7 @@ tf/
 │  └─ hbivnm_config_ultra.cfg
 └─ custom/
    ├─ __Horsie'sViewmodelEditor_vXXXXXX.vpk
+   ├─ Engineer FP Overhaul.vpk
    ├─ FlatTexturesV1.vpk
    ├─ hbivnm-tf2-config.vpk
    ├─ mastercomfig-disable-pyroland-addon_vXXXXXX.vpk
