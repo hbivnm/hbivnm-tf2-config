@@ -14,9 +14,9 @@ Download the repo. here [HERE](https://github.com/hbivnm/hbivnm-tf2-config/archi
 * `tf/cfg/hbivnm/hbivnm_settings.cfg`
 * `tf/cfg/hbivnm/hbivnm_userpref.cfg`
 6. Add your own commands to `tf/cfg/hbivnm/hbivnm_custom.cfg`
-7. Add launch options: `-fullscreen -novid -nojoy -nosteamcontroller -noforcemaccel -noquicktime -particles 1 -precachefontchars -freq 144 -high +exec hbivnm_config`
+7. Add launch options: `-novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -noquicktime -freq 144 +exec hbivnm_config`
 
-**NOTE:** `-freq` should be changed to match your own monitor refresh rate and hardware.
+**NOTE:** `-freq` should be changed to match your own monitor refresh rate of your monitor.
 
 **NOTE:** This config is compatible with ALL mastercomfig addons.
 
@@ -79,18 +79,6 @@ This config is what works best for me and have been used on two unique systems:
 
 Comments about certain commands within my cfg file might not be accurate for YOU and it could be worth experimenting on your own with my config as a foundation for your own future config :)
 
-## Contents
-- My own configs
-- Config vpk
-
-### Additional content
-- Edited version of [ahud](https://huds.tf/site/s-ahud)
-- Class specific configs and overrides
-- Custom viewmodels
-- Flat texture addon
-- mastercomfig disable pyroland addon
-- mastercomfig no soudscapes addon
-
 # Additional customization
 
 ## DirectX (dxlevel)
@@ -138,13 +126,3 @@ You can download NVIDIA Profile Inspector from this repo [here](https://github.c
 7. Top right hit "Apply changes"
 8. Close NVIDIA Profile Inspector
 9. Launch TF2
-
-# Help / FAQ
-**Q:** I can't see my own bullet tracers, how can I fix this?
-
-**A:** These are turned off by default in my config, add `r_drawtracers_firstperson 1` and `cl_particle_batch_mode 1` to `tf/cfg/hbivnm_custom.cfg`.
-***
-**Q:** I can't see flame particles at certain times, how can I fix this?
-
-**A:** This is due to particle batching, add `cl_particle_batch_mode 1` to `tf/cfg/hbivnm_custom.cfg`.
-***
