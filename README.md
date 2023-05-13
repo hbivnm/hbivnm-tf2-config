@@ -1,5 +1,11 @@
 # HbiVnm's Team Fortress 2 config
-This is the config I use, I value good visibility and high framerates. Hence this config is designed specifically for high framerates and minimizing visual clutters :)
+These are the config I use, I generally value good visibility and high framerates.
+
+* `hbivnm_config` - Maximize the frames, game looks potato.
+* `hbivnm_config_high_optimized` - High framerate config while keeping the visual to a decently high level.
+* `hbivnm_config_ultra` - Maximize the visuals. Great for recording or watching STVs.
+
+NOTE: As of 2023-04-14, this config is no longer being designed to be user-friendly. Do what you want with these configs.
 
 ## Download
 Download the repo. here [HERE](https://github.com/hbivnm/hbivnm-tf2-config/archive/refs/heads/main.zip).
@@ -64,7 +70,7 @@ tf/
 ```
 
 ## DISCLAIMER
-This config is what works best for me and have been used on two unique systems:
+This config is what works best for me and have been tested and used on two separate systems:
 - AMD Ryzen 9 3900X
 - NVIDIA GTX 1080TI
 - 48gb RAM @ 3600MHz
