@@ -2,7 +2,7 @@
 These are the config I use, I generally value good visibility and high framerates.
 
 * `hbivnm_config` - Maximize the frames, game looks potato.
-* `hbivnm_config_high_optimized` - High framerate config while keeping the visual to a decently high level.
+* `hbivnm_config_medium` - High framerate config while keeping the visual to a decently high level.
 * `hbivnm_config_ultra` - Maximize the visuals. Great for recording or watching STVs.
 
 NOTE: As of 2023-04-14, this config is no longer being designed to be user-friendly. Do what you want with these configs.
