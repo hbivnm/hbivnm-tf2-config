@@ -1,0 +1,37 @@
+event DamagedPlayer 
+{
+	StopEvent HitMarker 0.0
+	RunEvent HitMarker 0.01
+}
+
+event HitMarker
+{
+	Animate KnucklesCrosses		FgColor		"CrosshairDamage"		Linear 0.0 0.0
+	Animate KnucklesCrosses		FgColor		"Crosshair"		Linear 0.15 0.0
+}
+
+event CompetitiveGame_LowerChatWindow
+{
+}
+event CompetitiveGame_RestoreChatWindow
+{
+}
+event HudTournament_MoveChatWindow
+{
+}
+
+event HudSpyDisguiseChanged
+{
+	//Animate PlayerStatusSpyOutlineImage		Alpha		"255"			Linear 0.0 0.2
+	//Animate PlayerStatusSpyOutlineImage		Position	"98 290"	Linear 0.0 0.2
+	//Animate PlayerStatusSpyOutlineImage		Size		"100 100"		Linear 0.0 0.2
+
+	//RunEvent HudSpyDisguiseHide	0.7
+}
+
+event HudSpyDisguiseHide
+{
+	//Animate PlayerStatusSpyOutlineImage		Position	"45 430"			Linear 0.0 0.2
+	//Animate PlayerStatusSpyOutlineImage		Size		"0 0"			Linear 0.0 0.2
+	//Animate PlayerStatusSpyOutlineImage		Alpha		"0"				Linear 0.2 0.1
+}

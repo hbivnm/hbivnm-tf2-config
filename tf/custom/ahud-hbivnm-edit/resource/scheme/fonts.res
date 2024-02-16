@@ -2,6 +2,17 @@ Scheme
 {
 	Fonts
 	{
+		"hbivnm"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"0"
+			}
+		}
 		"BlocksSharp64"
 		{
 			"1"
