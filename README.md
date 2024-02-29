@@ -18,7 +18,7 @@ tf/
    ├─ mastercomfig-disable-pyroland-addon.vpk
    ├─ mastercomfig-no-soundscapes-addon.vpk
    ├─ mastercomfig-null-canceling-movement-addon.vpk
-   └─ mastervnm-low-preset.vpk (REQUIRED)
+   └─ mastervnm-low_v1.1.vpk (REQUIRED)
 ```
 
 **NOTE:** This config is compatible with ALL mastercomfig addons.
