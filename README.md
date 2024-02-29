@@ -8,20 +8,20 @@ Download a release of the config [HERE](https://github.com/hbivnm/hbivnm-tf2-con
 1. Copy the contents of a release to `...\tf\cfg` and `...\tf\custom`
 2. Add the following launch options: `-console -no_texture_stream -novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -noquicktime +exec hbivnm`
 
-**NOTE:** This config is compatible with ALL mastercomfig addons.
-
-Here is an overview of where things should be placed:
+Here is an overview of where things should be placed, please note what is **REQUIRED**:
 ```
 tf/
 ├─ cfg/
-│  ├─ hbivnm.cfg
+│  ├─ hbivnm.cfg (REQUIRED)
 └─ custom/
    ├─ ahud-hbivnm-edit
    ├─ mastercomfig-disable-pyroland-addon.vpk
    ├─ mastercomfig-no-soundscapes-addon.vpk
    ├─ mastercomfig-null-canceling-movement-addon.vpk
-   └─ mastervnm-low-preset.vpk
+   └─ mastervnm-low-preset.vpk (REQUIRED)
 ```
+
+**NOTE:** This config is compatible with ALL mastercomfig addons.
 
 ## Benchmarks
 *To be added*
