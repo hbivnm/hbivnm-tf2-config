@@ -1,28 +1,12 @@
 # HbiVnm's Team Fortress 2 config
-These are the config I use, I generally value good visibility and high framerates.
-
-* `hbivnm_config` - Maximize the frames, game looks potato.
-* `hbivnm_config_medium` - High framerate config while keeping the visual to a decently high level.
-* `hbivnm_config_ultra` - Maximize the visuals. Great for recording or watching STVs.
-
-NOTE: As of 2023-04-14, this config is no longer being designed to be user-friendly. Do what you want with these configs.
+This is the config I use, I generally value good visibility and high framerates.
 
 ## Download
-Download the repo. here [HERE](https://github.com/hbivnm/hbivnm-tf2-config/archive/refs/heads/main.zip).
+Download a release of the config [HERE](https://github.com/hbivnm/hbivnm-tf2-config/releases).
 
 ## Installation
-1. Remove all mastercomfig-related files in `tf/custom`
-2. Remove or backup your current class specific configs
-3. Drag and drop (and replace and merge) the "tf" folder (or place things manually)
-4. Edit class configs or restore your own to `tf/cfg/user`
-5. Edit the following files to your liking:
-* `tf/cfg/hbivnm/hbivnm_binds.cfg`
-* `tf/cfg/hbivnm/hbivnm_settings.cfg`
-* `tf/cfg/hbivnm/hbivnm_userpref.cfg`
-6. Add your own commands to `tf/cfg/hbivnm/hbivnm_custom.cfg`
-7. Add launch options: `-novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -noquicktime -freq 144 +exec hbivnm_config`
-
-**NOTE:** `-freq` should be changed to match your own monitor refresh rate of your monitor.
+1. Copy the contents of a release to `...\tf\cfg` and `...\tf\custom`
+2. Add the following launch options: `-console -no_texture_stream -novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -noquicktime +exec hbivnm`
 
 **NOTE:** This config is compatible with ALL mastercomfig addons.
 
@@ -30,60 +14,17 @@ Here is an overview of where things should be placed:
 ```
 tf/
 ├─ cfg/
-│  ├─ hbivnm/
-│  │  ├─ hbivnm_addons.cfg
-│  │  ├─ hbivnm_binds.cfg
-│  │  ├─ hbivnm_custom.cfg
-│  │  ├─ hbivnm_nullmovement.cfg
-│  │  ├─ hbivnm_settings.cfg
-│  │  └─ hbivnm_userpref.cfg
-│  ├─ overrides/
-│  │  ├─ demoman.cfg
-│  │  ├─ engineer.cfg
-│  │  ├─ heavyweapons.cfg
-│  │  ├─ medic.cfg
-│  │  ├─ pyro.cfg
-│  │  ├─ scout.cfg
-│  │  ├─ sniper.cfg
-│  │  ├─ soldier.cfg
-│  │  └─ spy.cfg
-│  ├─ user/
-│  │  ├─ demoman.cfg
-│  │  ├─ engineer.cfg
-│  │  ├─ heavyweapons.cfg
-│  │  ├─ medic.cfg
-│  │  ├─ pyro.cfg
-│  │  ├─ scout.cfg
-│  │  ├─ sniper.cfg
-│  │  ├─ soldier.cfg
-│  │  └─ spy.cfg
-│  ├─ hbivnm_config.cfg
-│  ├─ hbivnm_config_high_optimized.cfg
-│  └─ hbivnm_config_ultra.cfg
+│  ├─ hbivnm.cfg
 └─ custom/
-   ├─ __Horsie'sViewmodelEditor_vXXXXXX.vpk
-   ├─ Engineer FP Overhaul.vpk
-   ├─ FlatTexturesV1.vpk
-   ├─ hbivnm-tf2-config.vpk
-   ├─ mastercomfig-disable-pyroland-addon_vXXXXXX.vpk
-   └─ mastercomfig-no-soundscapes-addon_vXXXXXX.vpk
+   ├─ ahud-hbivnm-edit
+   ├─ mastercomfig-disable-pyroland-addon.vpk
+   ├─ mastercomfig-no-soundscapes-addon.vpk
+   ├─ mastercomfig-null-canceling-movement-addon.vpk
+   └─ mastervnm-low-preset.vpk
 ```
 
-## DISCLAIMER
-This config is what works best for me and have been tested and used on two separate systems:
-- AMD Ryzen 9 3900X
-- NVIDIA GTX 1080TI
-- 48gb RAM @ 3600MHz
-- Windows 10
-- TF2 installed on an M.2 NVMe SSD
----
-- AMD Ryzen 9 7900X
-- NVIDIA RTX 4080
-- 64gb RAM @ 5200MHz
-- Windows 10 Home
-- TF2 installed on an M.2 NVMe SSD
-
-Comments about certain commands within my cfg file might not be accurate for YOU and it could be worth experimenting on your own with my config as a foundation for your own future config :)
+## Benchmarks
+*To be added*
 
 # Additional customization
 
