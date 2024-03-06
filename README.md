@@ -5,7 +5,7 @@ Check [`\archive`](https://github.com/hbivnm/hbivnm-tf2-config/tree/main/archive
 
 ## Installation
 1. Copy the contents of a release to `...\tf\cfg` and `...\tf\custom`
-2. Add the following launch options: `-console -no_texture_stream -novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -noquicktime +exec hbivnm`
+2. Add the following launch options: `-console -no_texture_stream -novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -noquicktime +exec custom`
 
 # Additional customization
 
