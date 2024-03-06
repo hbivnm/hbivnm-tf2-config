@@ -1,30 +1,11 @@
 # HbiVnm's Team Fortress 2 config
-This is the config I use, I generally value good visibility and high framerates.
+Config I use for Team Fortress 2, archiving purposes.
 
-## Download
-Download a release of the config [HERE](https://github.com/hbivnm/hbivnm-tf2-config/releases).
+Check [`\archive`](https://github.com/hbivnm/hbivnm-tf2-config/tree/main/archive) for old configs.
 
 ## Installation
 1. Copy the contents of a release to `...\tf\cfg` and `...\tf\custom`
 2. Add the following launch options: `-console -no_texture_stream -novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -noquicktime +exec hbivnm`
-
-Here is an overview of where things should be placed, please note what is **REQUIRED**:
-```
-tf/
-├─ cfg/
-│  ├─ hbivnm.cfg (REQUIRED)
-└─ custom/
-   ├─ ahud-hbivnm-edit
-   ├─ mastercomfig-disable-pyroland-addon.vpk
-   ├─ mastercomfig-no-soundscapes-addon.vpk
-   ├─ mastercomfig-null-canceling-movement-addon.vpk
-   └─ mastervnm-low_v1.1.vpk (REQUIRED)
-```
-
-**NOTE:** This config is compatible with ALL mastercomfig addons.
-
-## Benchmarks
-*To be added*
 
 # Additional customization
 
