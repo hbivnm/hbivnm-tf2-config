@@ -3,7 +3,7 @@ Config I use for Team Fortress 2, probably not up-to-date.
 
 ## Installation
 1. Copy the contents to `...\tf\cfg` and `...\tf\custom`
-2. Add the following launch options: `-full -fullscreen -w 1920 -h 1080 -novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars +exec custom`
+2. Add the following launch options: `-console -full -fullscreen -w 1920 -h 1080 -novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars +exec custom`
 
 # Additional customization
 
