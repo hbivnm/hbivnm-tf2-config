@@ -4,3 +4,4 @@
 \_releases
 *.bat
 \rcon
+*.cache
