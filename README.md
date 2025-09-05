@@ -1,11 +1,9 @@
 # HbiVnm's Team Fortress 2 config
-Config I use for Team Fortress 2, archiving purposes.
-
-Check [`\archive`](https://github.com/hbivnm/hbivnm-tf2-config/tree/main/archive) for old configs.
+Config I use for Team Fortress 2, probably not up-to-date.
 
 ## Installation
 1. Copy the contents to `...\tf\cfg` and `...\tf\custom`
-2. Add the following launch options: `-console -no_texture_stream -novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -noquicktime +exec custom`
+2. Add the following launch options: `-full -fullscreen -w 1920 -h 1080 -novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars +exec custom`
 
 # Additional customization
 
@@ -42,7 +40,7 @@ You have now set a new DirectX level.
 ## NVIDIA Profile Inspector / LOD Tweak
 You can alter the LOD (level of detail) bias so all textures render using their low resolution variants, this might give you an increase in performance for low-end systems and might be worth checking out.
 
-You can download NVIDIA Profile Inspector from this repo [here](https://github.com/hbivnm/hbivnm-tf2-config/raw/main/NVIDIA%20Profile%20Inspector/nvidiaProfileInspector.exe).
+You can download NVIDIA Profile Inspector [here](https://github.com/Orbmu2k/nvidiaProfileInspector/releases).
 
 ### How to enable LOD Tweak
 1. Close TF2
