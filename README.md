@@ -2,7 +2,7 @@
 Config I use for Team Fortress 2, probably not up-to-date.
 
 ## Installation
-1. Copy the contents to `...\tf\cfg` and `...\tf\custom`
+1. Copy the repo [`\tf`](https://github.com/hbivnm/hbivnm-tf2-config/tree/main/tf) contents to your local `...\Team Fortress 2\tf`
 2. Add the following launch options: `-console -full -fullscreen -w 1920 -h 1080 -novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars +exec custom`
 
 # Additional customization
@@ -29,11 +29,11 @@ DirectX 9 gives generally **less frames** but **better looking graphics**.
 2. Go to the "Library"
 3. Right-click "Team Fortress 2"
 4. Select "Properties..." from the menu
-5. In the "Launch Options" input field, type one of the DirectX levels available (ex. `-dxlevel 100`)
+5. In the "Launch Options" input field, type one of the DirectX levels available (eg. `-dxlevel 100`)
 6. Start Team Fortress 2 and let it fully launch
 7. Close Team Fortress 2
 8. Repeat steps 2, 3, 4
-9. In the "Launch Options" input field, remove the previously added launch option (ex. `-dxlevel 100`)
+9. In the "Launch Options" input field, remove the previously added launch option (eg. `-dxlevel 100`)
 
 You have now set a new DirectX level.
 
