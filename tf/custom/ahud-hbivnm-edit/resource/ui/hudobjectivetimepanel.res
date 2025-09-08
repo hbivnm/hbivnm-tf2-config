@@ -227,8 +227,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
-		"xpos"			"-24"
-		"ypos"			"0"
+		"xpos"			"10"
+		"ypos"			"20"
 		"zpos"			"5"
 		"wide"			"78"
 		"tall"			"15"
@@ -241,31 +241,20 @@
 		"wrap"			"0"
 		"font"			"aRegular10"
 		"fgcolor"		"ahudWhite"
-
-		if_match
-		{
-			"xpos"					"c-44"
-			"ypos"					"21"
-		}
 	}
 
 	"ServerTimeLimitLabelBG"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
-		"xpos"			"-8"
-		"ypos"			"0"
+		"xpos"			"36"
+		"ypos"			"23"
 		"zpos"			"1"
-		"wide"			"39"
-		"tall"			"14"
+		"wide"			"25"
+		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"	"HudBlack"
 		"PaintBackgroundType"	"0"
-
-		if_match
-		{
-			"wide"	"0"
-		}
 	}
 }
