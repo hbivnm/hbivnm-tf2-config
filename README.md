@@ -2,8 +2,9 @@
 Config I use for Team Fortress 2, probably not up-to-date.
 
 ## Installation
+1. Download [main](https://github.com/hbivnm/hbivnm-tf2-config/archive/refs/heads/main.zip)
 1. Copy the repo [`\tf`](https://github.com/hbivnm/hbivnm-tf2-config/tree/main/tf) contents to your local `...\Team Fortress 2\tf`
-2. Add the following launch options: `-console -full -fullscreen -w 1920 -h 1080 -novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars +exec custom`
+2. Add the following launch options: `-console -full -fullscreen -w 1920 -h 1080 -novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -no_texture_stream +exec custom`
 
 # Additional customization
 
