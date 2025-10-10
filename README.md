@@ -1,5 +1,18 @@
 # HbiVnm's Team Fortress 2 config
-Config I use for Team Fortress 2, probably not up-to-date.
+Config I use for Team Fortress 2, probably not up-to-date (see commit history).
+## Repository
+* [`\benchmark`](https://github.com/hbivnm/hbivnm-tf2-config/tree/main/tf) contains benchmarking resources
+* [`\tf`](https://github.com/hbivnm/hbivnm-tf2-config/tree/main/tf) contains the config
+
+## Benchmark
+### Specs
+* AMD Ryzen 9 7900X
+* NVIDIA GeForce RTX 4080
+* 64,0 GB DDR5@5200 MHz
+* NVMe SSD
+* DirectX 9+ - `100`
+### Results
+**No benchmark available**
 
 ## Installation
 1. Download [main](https://github.com/hbivnm/hbivnm-tf2-config/archive/refs/heads/main.zip)
@@ -7,8 +20,9 @@ Config I use for Team Fortress 2, probably not up-to-date.
 2. Add the following launch options: `-console -full -fullscreen -w 1920 -h 1080 -novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -no_texture_stream +exec custom`
 
 # Additional customization
+Below are some additional (read: advanced) available customizations for your TF2 config.
 
-## DirectX (dxlevel)
+## DirectX level (dxlevel)
 Team Fortress 2 supports a few different DirectX levels, some give more frames than others, some look better and some are more stable.
 
 ### Available DirectX levels
